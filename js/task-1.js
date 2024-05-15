@@ -1,3 +1,5 @@
+'use strict';
+
 function makeTransaction(quantity, pricePerDroid, customerCredits) {
     const sum = quantity * pricePerDroid;
     if (customerCredits >= sum){
